@@ -1,26 +1,23 @@
 <template>
-   <SignUp/>
+   <router-view/>
 </template>
 
-<script>
-import SignUp from './components/SignUp.vue';
-export default {
-  name: 'App',
-  components:{
-    SignUp
-  },
-  data(){
-    return{
-    }
-  }
-
-}
-</script>
-
-<style >
+<style>
 #app {
-  background-color: #eeeeee;
-  padding: 3em;
-  height: 100%;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  background-color: #7298bd;
 }
+
+/* nav {
+  padding: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+nav a.router-link-exact-active {
+  color: #42b983;
+} */
 </style>
